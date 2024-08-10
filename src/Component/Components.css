@@ -1,0 +1,32 @@
+/* Navbar css */
+#image {
+  height: 450px;
+  object-fit: cover;
+}
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff" viewBox="0 0 16 16"><path d="M1 4.5A.5.5 0 0 1 1.5 4h13a.5.5 0 0 1 0 1H1.5A.5.5 0 0 1 1 4.5zM1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1H1.5A.5.5 0 0 1 1 8zm0 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1H1.5a.5.5 0 0 1-.5-.5z"/></svg>');
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .btn-danger {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar .d-lg-none button {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .btn-div {
+    display: flex;
+    align-items: center;
+  }
+  .btn-div button{
+    height: 40px;
+    margin: auto;
+  }
+}
